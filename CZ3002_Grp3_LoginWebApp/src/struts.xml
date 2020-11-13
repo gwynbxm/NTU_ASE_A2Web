@@ -12,7 +12,7 @@
             <result>/login.jsp</result>
         </action>
         
-        <action name="loginAction" class="grp3.ase.ntu.LoginAction">
+        <action name="LoginCred" class="grp3.ase.ntu.model.LoginCred">
         	<result name="success">/loginSuccess.jsp</result>
         	<result name="error">/login.jsp</result>
         </action>

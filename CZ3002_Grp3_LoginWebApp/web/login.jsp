@@ -16,6 +16,7 @@
 <s:form action="login">
 	<s:textfield label="Username" key="username"/>
 	<s:password label="Password" key="password"/>
+	<s:submit value="Login"/>
 </s:form>
 
 <s:actionerror style="color: red"/>
