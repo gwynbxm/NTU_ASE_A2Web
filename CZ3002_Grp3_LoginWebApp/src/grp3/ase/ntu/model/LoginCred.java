@@ -22,13 +22,18 @@ public class LoginCred extends ActionSupport{
 			this.password = password;
 		}
 		
+		
+		
 		/**
 		 * execute() function called upon login button pressed
 		 * @return
 		 */
-		//public String execute() {
+		public String execute() {
+			if (username == ' ')
+			{
+				
+			}
 			
-			
-		//}
+		}
 		
 }
