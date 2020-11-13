@@ -6,10 +6,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Successful Login!</title>
+<title>Welcome!</title>
 </head>
 <body>
 
+<h2>You have successfully logged in!</h2>
 <h4><a href="login">Logout</a></h4>
 
 </body>
