@@ -29,10 +29,6 @@ public class LoginCred extends ActionSupport{
 		 * @return
 		 */
 		public String execute() {
-			if (username == ' ')
-			{
-				
-			}
 			
 		}
 		
