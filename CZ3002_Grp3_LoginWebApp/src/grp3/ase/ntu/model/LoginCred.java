@@ -28,14 +28,13 @@ public class LoginCred extends ActionSupport{
 		 * execute() function called upon login button pressed
 		 * @return
 		 */
-		public String execute() {
-			int a=grp3.ase.ntu.controller.ValidateLogin.verify(username,password);
-			if (a==1){
-				//System.out.println("yes");
-				return "success";
-			}
-			//System.out.println("no");
-			return "error";
+		public String execute(String username, String password) {
+			if((ValidateLogin.verify(username,password) == 1)
+			   {
+				 return "Successful Login";
+			   }
+			 else
+			   	execute(String username, String password);
 		}
 		
 }
