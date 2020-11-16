@@ -28,8 +28,8 @@ public class LoginCred extends ActionSupport{
 		 * execute() function called upon login button pressed
 		 * @return
 		 */
-		public String execute() {
-			
+		public String execute(username, password) {
+
 		}
 		
 }
